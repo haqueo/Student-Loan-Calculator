@@ -1,0 +1,7 @@
+#Mon Oct 03 21:13:02 BST 2016
+base.0=/Users/Omar/AndroidStudioProjects/StudentLoans2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3d4e45525d7aceb12632df966cbf692c9b68df0e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Omar/AndroidStudioProjects/StudentLoans2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fa2c16899d5903ec0570041e42537dd7009c7a54/classes.dex
+base.1=/Users/Omar/AndroidStudioProjects/StudentLoans2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fa2c16899d5903ec0570041e42537dd7009c7a54
+file.0=/Users/Omar/AndroidStudioProjects/StudentLoans2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3d4e45525d7aceb12632df966cbf692c9b68df0e/classes.dex

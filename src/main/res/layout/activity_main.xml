@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/googleGreen"
+        android:elevation="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/student_loans_calculator"
+            android:id="@+id/toolbarTitle"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+           android:id="@+id/newIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/introMessage"
+            android:textSize="30sp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/loanIntro"
+            android:layout_below="@id/newIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estimated loan outstanding after graduation"
+            android:layout_gravity="center"
+            android:paddingTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="16dp"
+            />
+
+        <EditText
+            android:id="@+id/loan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 36000"
+            android:inputType="number"
+            android:maxLength="5"
+            android:layout_below="@+id/loanIntro"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+
+            />
+        <TextView
+            android:id="@+id/pound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="£"
+            android:layout_toLeftOf="@+id/loan"
+            android:layout_below="@id/loanIntro"
+            android:layout_alignBaseline="@id/loan"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/salaryIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estimated salary after graduation:"
+            android:layout_below="@id/loan"
+            android:paddingTop="14dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="16dp"
+            />
+        <EditText
+            android:id="@+id/salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 28000"
+            android:inputType="number"
+            android:maxLength="5"
+            android:layout_below="@+id/salaryIntro"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:id="@+id/pound2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="£"
+            android:layout_toLeftOf="@+id/salary"
+            android:layout_below="@id/salaryIntro"
+            android:layout_alignBaseline="@id/salary"
+            android:textSize="30sp"
+            />
+
+        <Button
+
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:background="#69F0AE"
+            android:text="@string/button_send"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:layout_below="@+id/salary"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp" />
+
+    </RelativeLayout>
+</LinearLayout>

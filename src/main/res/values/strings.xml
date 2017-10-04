@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Student Loans</string>
+    <string name="salary_query">What is your estimated salary upon graduation?</string>
+    <string name="button_send">submit</string>
+    <string name="loan_query">What is your estimated loan upon graduation?</string>
+    <string name="introMessage">To see how much you\'ll be repaying in student loans, enter the values below </string>
+    <string name="profile">Profile</string>
+    <string name="compose">Compose</string>
+    <string name="student_loans_calculator">Student Loans Repayment Calculator</string>
+    <string name="estimated_annual_salary_after_graduation">          Estimated annual salary after graduation:</string>
+</resources>
